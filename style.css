@@ -1,0 +1,31 @@
+body {
+	font-size: 13px;
+	line-height: 1.5;
+	padding: 5%;
+	margin: 0;
+}
+
+p {
+	margin: 0 0 8px 0;
+}
+
+h3, h4 {
+	margin: 0;
+}
+
+dt {
+	font-weight: bold;
+}
+dd {
+	margin: 0;
+	padding: 10px;
+}
+
+dl.list > dt {
+	font-size: 16px;
+}
+
+dl.list > dd {
+	border-left: 5px solid #ddd;
+	padding-left: 40px;
+}
