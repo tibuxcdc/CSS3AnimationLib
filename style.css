@@ -1,8 +1,10 @@
 body {
-	font-size: 13px;
+	font-size: 18px;
+	font-family: monospace, Arial, sans-serif;
 	line-height: 1.5;
 	padding: 5%;
 	margin: 0;
+	color: #143352;
 }
 
 p {
@@ -22,10 +24,27 @@ dd {
 }
 
 dl.list > dt {
-	font-size: 16px;
+	font-size: 20px;
 }
 
-dl.list > dd {
+dl.list dd {
 	border-left: 5px solid #ddd;
 	padding-left: 40px;
+}
+
+dl.list dl {
+	border: 2px dashed #ddd;
+	padding-left: 15px;
+}
+dl.list dl dt,
+dl.list dl dd {
+	padding: 10px;
+	border: none;
+}
+
+
+.elm {
+	width: 150px;
+	height: 150px;
+	background: blue;
 }
